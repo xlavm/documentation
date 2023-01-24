@@ -1,17 +1,17 @@
 # Project information
-site_name: Example_doc
-site_url: https://github.com/xlavm/Markdown
+site_name: Documentation
+site_url: https://github.com/xlavm/documentation
 site_author: Luis Angel Vanegas Martinez
 site_description: >-
   Create a documentation of example
 
 # Repository
-repo_name: xlavm/Markdown
-repo_url: https://github.com/xlavm/Markdown
+repo_name: xlavm/documentation
+repo_url: https://github.com/xlavm/documentation
 edit_uri: ""
 
 # Copyright
-copyright: Copyright &copy; 2021 LAVM
+copyright: Copyright &copy; Luis Vanegas since 2020
 
 # Customization
 extra:
@@ -25,11 +25,11 @@ extra:
     - icon: fontawesome/brands/facebook
       link: https://www.facebook.com/xlavm1/
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/squidfunk/
+      link: https://linkedin.com/in/xlavm/
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCsFxicrm7ysiQk9jZ2WZNtg?view_as=subscriber
     - icon: fontawesome/brands/instagram
-      link: https://instagram.com/squidfunk
+      link: https://instagram.com/xlavm
 
 theme:
     name: material

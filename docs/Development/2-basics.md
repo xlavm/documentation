@@ -1,4 +1,4 @@
-# Basics (FALTA)
+# Basics
 
 ## Comments
 
@@ -262,7 +262,7 @@
          etc..
          ```
 
-## Forzar cierres (FALTA)
+## Forzar cierres
 
 === "JAVA"
 
@@ -272,11 +272,15 @@
 
 === "JAVASCRIPT"
 
-    No Aun
+    ```JS
+    break
+    ```
 
 === "PYTHON"
 
-    No Aun
+    ```PY
+    break
+    ```
 
 ## Manejo de cadenas
 
@@ -371,7 +375,7 @@
      # output: Hi Luis, you age is 25
     ```
 
-## Capturador de Errores (FALTA)
+## Capturador de Errores
 
 - Try: va el bloque de codigo a evaluar.
 - Catch: va el comportamiento que tomará el programa si hay un error.
@@ -407,8 +411,55 @@
 
 === "JAVASCRIPT"
 
-    No aun
+    - Capturador simple
+
+    ```JS
+    try {
+    throw "myException" // genera una excepción
+    }
+    catch (e) {
+        // sentencias para manejar cualquier excepción
+        logMyErrors(e) // pasa el objeto de la excepción al manejador de errores
+    }
+    finally {
+        closeMyFile() // siempre cierra el recurso
+    }
+    ```
+
+    - Capturador multiple
+
+    ```JS
+    try {
+
+    }catch( ArithmeticException e ) {
+               
+    }catch( Exception e ) {
+              
+    }
+    ```
 
 === "PYTHON"
 
-    No aun
+    - Capturador simple
+
+    ```PY
+    try:
+        print(x)
+    except:
+        print("An exception occurred")
+    finally:
+        print("The 'try except' is finished")
+    ```
+
+    - Capturador multiple
+
+    ```PY
+    try:
+        print(x)
+    except NameError:
+        print("Variable x is not defined")
+    except:
+        print("Something else went wrong")
+    else:
+        print("Nothing went wrong")
+    ```

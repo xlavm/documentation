@@ -1,4 +1,4 @@
-# Class (FALTA)
+# Classes (FALTA)
 
 ## Clases, Atributos y Funciones (FALTA)
 
